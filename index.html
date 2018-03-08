@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>滚动简历</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css" /> 
+  <link rel="stylesheet" type="text/css" href="css/app.css" />
+</head>
+<body>
+      <div id="page"></div>
+      <div class="loading">
+        <div class="loading-circle_list">
+          <div class="loading-circle loading-circle-left"></div> 
+          <div class="loading-circle loading-circle-center"></div> 
+          <div class="loading-circle loading-circle-right"></div> 
+        </div>
+      </div>
+      <div class="intro">
+        <p class="intro-title">大家好,我叫<b class="intro-name">Yuriuh</b></p>
+        <p class="intro-desc">一名喜爱<b class="intro-job">前端设计</b>的人</p>
+        <button class="intro-button js-start-resume">start</button>
+        <p class="intro-tip">点击按钮-开始滚动页面</p>
+      </div>
+      <div class="content">
+          <div class="layer-horizontal">
+          	<div class="sun"></div>
+            <div class="cloud"></div>
+            <div class="mountain"></div>
+            <div class="background"></div>
+            <div class="trees"></div>
+            <div class="block block1"></div>
+            <div class="block block2"></div>
+            <div class="block block3"></div>
+            <div class="project project-1">
+              <h2 class="project-title">项目1：飞机大作战</h2>
+              <img class="project-img" src="./images/project-demo1.png">
+              <div class="project-desc">
+                <h3>项目简介</h3>
+                <p>运用了面向对象的思维方法，巩固了js[继承]，[原型链]等相关知识</p>
+                <h3>技术栈</h3>
+                <p>html5 + canvas + jquery</p>
+              </div>
+            </div>
+            <div class="project project-2">
+              <h2 class="project-title">项目2：模仿凡客页面</h2>
+              <img class="project-img" src="./images/project-demo2.png">
+              <div class="project-desc">
+                <h3>项目简介</h3>
+                <p>传统电商网页，主要锻炼自己的 div + css 的页面布局能力</p>
+                <h3>技术栈</h3>
+                <p>html5 + 原生js</p>
+              </div>              
+            </div>
+            <div class="project project-3">    
+            	<h2 class="project-title">项目3：TodoApp</h2>                      
+              <img class="project-img" src="./images/project-demo3.png">
+              <div class="project-desc">
+                <h3>项目简介</h3>
+                <p>通过这个小demo，了解了node创建服务器，npm包管理，以及相关框架的应用。</p>
+                <h3>技术栈</h3>
+                <p>node + express + ejs</p>
+              </div>
+            </div>
+            <div class="project project-4">    
+            	<h1 class="project-title">End</h1>
+            </div>
+          </div>
+            
+          <div id="people-container">
+            <div class="people"></div>
+          </div>
+        </div>
+  
+  <script src="./js/jquery.js"></script>
+  <script src="./js/resource.js"></script>
+  <script src="./js/scense.js"></script>
+  <script src="./js/me.js"></script>
+  <script src="./js/resume.js"></script>
+</body>
+</html>
