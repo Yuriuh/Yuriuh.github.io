@@ -1,0 +1,108 @@
+1. 首页 -> index.html
+
+
+
+2. 新闻资讯 -> news_all.html
+
+               news_company.html ->
+                   news_company_detail1.html
+                   news_company_detail2.html
+
+               news_industry.html ->
+                   news_industry_detail1.html
+                   news_industry_detail2.html
+
+3. 业务范围 -> business.html
+
+4. 关于我们 -> about.html 
+                   company_intro.html
+                   ourteams.html
+
+5. 联系方式 -> contact.html
+
+
+showStage
+
+要改的:
+
+1. minlogo
+
+2. 删除 项目展示
+
+
+2018/4/12
+
+1. 替换所有 <a> 里面的 href
+
+2. 给所以页面加上 _myself样式
+
+3. copyright 修改
+
+4. 联系方式 minHcontact
+
+5. 用awesome-font 加一些 icon
+
+
+6.以 news_industry_detail1 为蓝本复制给其他四个 detail
+
+
+7. 以 new_all 为蓝本复用给 news_company 和 news_industry
+
+    只用修改 active 即可
+
+
+2018/4/13
+
+1. 业务范围 solo 做一份，然后以此为蓝本复用六份
+
+2. 弄高德的 api
+
+3. 首页的下滑，该改的改，该去掉的去掉
+
+
+check list :
+
+1. <a> href 全部检查一遍，杜绝跳链接的情况
+
+2. copyright
+
+3. ico  √
+
+4. 在本地服务器跑一遍，貌似有Bug
+
+
+
+
+
+
+
+更正所有
+
+
+2018/4/14
+
+1. 表单的后台还未加入
+
+2. 首页的 <a> href 图片
+
+3. 首页的左右 index 按钮存在的 bug
+
+4. ...
+
+修改首页的 左右 index self.js 302
+
+
+
+style_2 -> 3274
+
+
+des_3 -> 792
+
+content: "\f105"; 右边
+font-family: FontAwesome;
+content: "\f104"; 左边
+
+
+所有页面的导航加入 [专业团队] 这一子导航
+
+所有页面的 <!DOCTYPE html>文档声明 检查一遍

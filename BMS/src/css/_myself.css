@@ -1,0 +1,27 @@
+/* 自己修改的一些重要的样式 */ 
+
+/* 修改logo的大小 */
+.ff_sitecontent #navMini .wrapper .content #minHeadTop #minLogo img {
+    height: 50px;
+}
+
+/* logo下面的文字 */
+.ff_sitecontent #navMini .wrapper .content #minHeadTop #minLogo p {
+    margin-top: 15px; 
+    font-size: 25px;
+}
+
+/* 左侧导航栏的字体 */
+.ff_sitecontent #navMini .wrapper .content #minNavWrapper .content #minNavScroll {
+    /* font-size: 18px; */
+}
+
+/* business_solo 中让 item 两列显示 */
+.postbody div {
+    display: inline-block;
+}
+#post-width {
+    width: 300px;
+}
+
+
