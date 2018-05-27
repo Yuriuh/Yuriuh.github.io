@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>todoApp</title>
+        <style>
+            /* 完成的样式 */
+            body {
+                background: url(bg.png);
+            }
+            .app {
+                font-size: 20px;
+                font-weight: 400;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            .todo-main {
+                height: 100%;
+                min-height: 450px;
+                width: 260px;
+                outline: 1.5px solid grey;
+                margin: 0 auto;
+            }
+            /* 完成的样式 */
+            .done {
+                color: gray;
+                text-decoration: line-through;
+                background: lightgrey;
+            }
+            #id-input-todo {
+                margin: 5px 0px 5px 25px;
+                /*background: #f8f8f8;*/
+                /*box-shadow: none;*/
+            }
+            .todo-cell {
+                border: 1px solid grey;
+                margin: 5px 5px;
+            }
+            .todo-cell .todo-time {
+                font-size: 12px;
+                margin: 2px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="todo-main">
+            <p class="app">TodoApp</p>
+            <!-- todo 输入框 -->
+            <div class="todo-form">
+                <input id='id-input-todo' type="text">
+                <button id='id-button-add' type="button">Add</button>
+            </div>
+            <!-- todo 列表 -->
+            <div id="id-div-container">
+                <!-- <div class='todo-cell'>
+                    <button class='todo-done'>完成</button>
+                    <button class='todo-delete'>删除</button>
+                    <span contenteditable='true'>上课</span>
+                </div> -->
+            </div>
+        </div>
+        <script src='todo.js'></script>
+    </body>
+</html>
