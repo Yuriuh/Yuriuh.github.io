@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sheep</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .stage {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background: #4a96ee;
+            overflow: hidden;
+        }
+        .sheep {
+            position: absolute;
+            width: 164px;
+            height: 122px;
+            background-image: url(sheep.png);
+            /* 控制雪碧图的位置 */
+            background-position: 0 0;
+            cursor: -webkit-grabbing;
+            background-repeat: no-repeat;
+            bottom: 150px;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="stage">
+        <!-- <div class="sheep"></div> -->
+    </div>
+    <script src="tools.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
